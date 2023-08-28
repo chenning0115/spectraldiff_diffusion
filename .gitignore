@@ -1,0 +1,5 @@
+jupyter
+codes/__pycache__
+codes/.ipynb_checkpoints/
+codes/save_model
+codes/save_feature
