@@ -47,12 +47,18 @@ How to use it?
     # spe = 104
     # channel = 1 #3d channel
     ```
-3. Run the code
+3. Run the code to train diffusion model, note that the epoch should be more than 30000.
    ```
    python train_unet.py
    ```
 
-others
+4. Modify the Confituration in feature_extract_unet.py file and run the code to extract diffusion features by diffusion model.
+
+    ```
+    python feature_extract_unet.py
+    ```
+
+Others
 ----------------------
 If you want to run the code in your own data, you can accordingly change the input (e.g., data, labels) and tune the parameters.
 
