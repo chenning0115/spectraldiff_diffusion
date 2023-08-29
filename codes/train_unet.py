@@ -11,7 +11,6 @@ import os,sys
 
 from data import HSIDataLoader, TestDS, TrainDS
 from unet3d import SimpleUnet
-from unet import UNetModel
 from diffusion import Diffusion
 from utils import AvgrageMeter, recorder, show_img
 from utils import device
