@@ -36,7 +36,7 @@ N. Chen, J. Yue, L. Fang and S. Xia, "SpectralDiff: A Generative Framework for H
 
 How to use it?
 ---------------------
-1. Prepare Data, you can get data from [here]().
+1. Prepare Data, you can get data from [here](https://www.ehu.eus/ccwintco/index.php/Hyperspectral_Remote_Sensing_Scenes).
 2. Modify the configuration for the corresponding dataset in train_unet.py file.
     ```
     # for PU
